@@ -58,7 +58,7 @@ export default function App() {
     setComments(updated);
 
     const savedEdits = JSON.parse(localStorage.getItem("edits") || "{}");
-    savedEdits[id] = { ...(savedEdits[id] || {}), [field]: value };
+    savedEdits[id] = { ...savedEdits[id] , [field]: value };
     localStorage.setItem("edits", JSON.stringify(savedEdits));
   };
 

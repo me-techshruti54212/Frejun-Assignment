@@ -1,3 +1,9 @@
+## Name and Body are Editable on double click. You can edit any specific name/body by double-clicking on it.
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
